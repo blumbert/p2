@@ -38,7 +38,7 @@ $numWords = 4;
 // validate input
 if (isset($_GET["numwords"])) {
     if (!is_numeric($_GET["numwords"])  || $_GET["numwords"] > 9)
-        $message = "Invalid number given";
+        $message = "Invalid number given. Defaulted to 4.";
     else {
         $numWords = $_GET["numwords"];
     }
