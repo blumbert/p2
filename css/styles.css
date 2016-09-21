@@ -9,12 +9,13 @@
     background-color: black;
 }
 
-#password > span {
+#password > div {
     box-shadow: inset 0px 0px 20px black;
     font-size: 3em;
     padding: 40px;
     background-color: lightgray;
     border-radius: 6px;
+    display: inline-block;
 }
 
 #controls {

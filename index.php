@@ -12,7 +12,7 @@ require 'processing.php';
 </head>
 <body>
     <div id="password">
-        <span><?php echo $password; ?></span>
+        <div><?php echo $password; ?></div>
     </div>
     <div id="controls">
         <form id="criteria_form">
