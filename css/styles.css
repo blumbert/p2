@@ -1,0 +1,51 @@
+#f_numwords {
+    width: 10px;
+}
+
+#password {
+    text-align: center;
+    padding: 80px 0;
+    background-color: black;
+}
+
+#password > span {
+    box-shadow: inset 0px 0px 20px black;
+    font-size: 3em;
+    padding: 40px;
+    background-color: lightgray;
+    border-radius: 6px;
+}
+
+#controls {
+    background-color: whitesmoke;
+    width: 300px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: inset 0px 0px 20px black;
+    margin: 0 auto;
+}
+
+form#criteria_form {
+}
+
+label {
+   font-size: x-large;
+}
+
+input {
+    margin: 5px 0;
+    font-size: x-large;
+}
+
+#message {
+    color: red;
+    margin-top: 10px;
+}
+
+body {
+    margin 0;
+    padding: 0;
+    background-color: black;
+    height: 100%;
+}
