@@ -60,7 +60,7 @@ $passwordArray = array();
 
 // form list of words
 foreach($keys as $key) {
-    array_push($passwordArray, $wordsArray[$key]);
+    array_push($passwordArray, strtolower($wordsArray[$key]));
 }
 
 // get password with words separated by a '-'
@@ -83,5 +83,3 @@ if (isset($_GET["includeNumber"]) && $_GET["includeNumber"] == 1) {
     // add digit to password
     $password .= $digit;
 }
-
-echo $password;
